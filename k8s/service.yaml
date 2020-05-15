@@ -8,8 +8,7 @@ spec:
   type: ClusterIP
   ports:
     - protocol: TCP
-      port: 9000
-      targetPort: 9000
+      port: 9080
+      targetPort: 9080
   selector:
     app: productpage
-    
