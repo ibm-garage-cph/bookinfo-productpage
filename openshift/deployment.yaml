@@ -15,7 +15,7 @@ spec:
         app: productpage
     spec:
       containers:
-        - image: image-registry.openshift-image-registry.svc:5000/pipelines/productpage:latest
+        - image: <IMAGE_NAME>
           imagePullPolicy: Always
           name: productpage
           ports:
